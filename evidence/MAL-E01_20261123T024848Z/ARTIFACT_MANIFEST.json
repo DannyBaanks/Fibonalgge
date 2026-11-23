@@ -1,0 +1,261 @@
+{
+  "artifacts": [
+    {
+      "bytes": 3688,
+      "path": "ADVERSARIAL_REVIEW.md",
+      "sha256": "fdcaa47e17fa6c26d1da22bca05d9352ab30cdee6134a2a18c84f7440d27a8f4"
+    },
+    {
+      "bytes": 483567,
+      "path": "RESULTS.json",
+      "sha256": "cf3a9aba326814183b236bd3dfcbb887f8dc8a0933f51e07e0b75c6d07ce6d6e"
+    },
+    {
+      "bytes": 47633,
+      "path": "cases.json",
+      "sha256": "da71c8ce17f0c82ace194f152598952b63952b89890228cae1d03359f30347e3"
+    },
+    {
+      "bytes": 346,
+      "path": "logs/COMMANDS.json",
+      "sha256": "71888b17251814c2edc7a0198a8f08adbc7543b86256b39e2a422630708f016e"
+    },
+    {
+      "bytes": 0,
+      "path": "logs/run.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 1459,
+      "path": "logs/run.stdout.json",
+      "sha256": "c058f5221edd5817de9cec7367dd683a82b77e6ea6d8dff792ba4c786c3b30a0"
+    },
+    {
+      "bytes": 1946,
+      "path": "logs/tests.stderr.txt",
+      "sha256": "3a25dca044ad66b572d0c473d13af2301f559c14fa2bd50f8a4a670b5a8dbc58"
+    },
+    {
+      "bytes": 0,
+      "path": "logs/tests.stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 1294,
+      "path": "snapshots/add/final.u16le.bin.gz",
+      "sha256": "ad62a24d9894b31aa914db269e864d0c40387572b423d0392ba313ae386867d9"
+    },
+    {
+      "bytes": 1112,
+      "path": "snapshots/add/initial.u16le.bin.gz",
+      "sha256": "499052436795465294b2bd69f024a7f5e91678ead91352541e5468b19eebf56e"
+    },
+    {
+      "bytes": 12497,
+      "path": "snapshots/bottles/final.u16le.bin.gz",
+      "sha256": "c014e9ae0a75f688bf3fb44bf04b9f848cd67aec4f13d83ba75f5f1981db796d"
+    },
+    {
+      "bytes": 10989,
+      "path": "snapshots/bottles/initial.u16le.bin.gz",
+      "sha256": "8b7511929b3f7b0feb6d4a3c8ad064854625f6555a18014f731b608477e838b1"
+    },
+    {
+      "bytes": 12589,
+      "path": "snapshots/bottles/step_00005000.u16le.bin.gz",
+      "sha256": "6b0784831ae02c323219b5976ccb3c3bb8355308fa28f9fed1a608c40bd5b32d"
+    },
+    {
+      "bytes": 13015,
+      "path": "snapshots/bottles/step_00010000.u16le.bin.gz",
+      "sha256": "1894400dad7b788834536e95e0cf2fa5b063ebc264801187043aeb22733c69f0"
+    },
+    {
+      "bytes": 13012,
+      "path": "snapshots/bottles/step_00015000.u16le.bin.gz",
+      "sha256": "66805586515ad563f95ab59ac485e62120e3c37d23cb76fc9e92a484d95c27c3"
+    },
+    {
+      "bytes": 12505,
+      "path": "snapshots/bottles/step_00020000.u16le.bin.gz",
+      "sha256": "166b60c034e80303870de796654c686a79ad4625b2ddf8d00e561bf1c7db76a6"
+    },
+    {
+      "bytes": 5635,
+      "path": "snapshots/cat/final.u16le.bin.gz",
+      "sha256": "5c656db22edc4cb876577536e4f5a4199f8c800fd710221f9b5def3f7621043c"
+    },
+    {
+      "bytes": 5202,
+      "path": "snapshots/cat/initial.u16le.bin.gz",
+      "sha256": "a6b7c0c00696768eca42d53900c3ed05538cd1ab52b11d5d807794a819a31ebe"
+    },
+    {
+      "bytes": 6149,
+      "path": "snapshots/cat/step_00005000.u16le.bin.gz",
+      "sha256": "fd15c0a2e8d99f3020e281b1963f2839bb4674f8eb3714da1791dc5e65921c61"
+    },
+    {
+      "bytes": 1479,
+      "path": "snapshots/clock/final.u16le.bin.gz",
+      "sha256": "8b2279788d983559879a6a448b151b6bc5de9ee85fcc19c0fcfaad804eb5c4a6"
+    },
+    {
+      "bytes": 1397,
+      "path": "snapshots/clock/initial.u16le.bin.gz",
+      "sha256": "0f78929a11a9455c7fdeb1ca4300c2c67be610bcb4866f91bc364d5271440455"
+    },
+    {
+      "bytes": 449,
+      "path": "snapshots/hello/final.u16le.bin.gz",
+      "sha256": "afd602ec6c8a828f826311ab52b540a10043ad2ab20b7abbf159de3ad418e229"
+    },
+    {
+      "bytes": 435,
+      "path": "snapshots/hello/initial.u16le.bin.gz",
+      "sha256": "ae0ac566290dba8e031a30076b16430fbe194311aacccefc59eb0ab33b18ad58"
+    },
+    {
+      "bytes": 1029,
+      "path": "snapshots/rev/final.u16le.bin.gz",
+      "sha256": "aac8f24ee1d76958c7c6038a5496129e13d3fd545f0ac5fb63b1fb9a888ca4de"
+    },
+    {
+      "bytes": 861,
+      "path": "snapshots/rev/initial.u16le.bin.gz",
+      "sha256": "37c96aade557913c7a334a2ee91508ea3407ff902fe65fa7603bf0a3fa5fe6a5"
+    },
+    {
+      "bytes": 16363,
+      "path": "snapshots/rot13/final.u16le.bin.gz",
+      "sha256": "99170502117b110d4fdfe0643027b9f8c3df8a2f45a743619c40f4ca4bc333e7"
+    },
+    {
+      "bytes": 14199,
+      "path": "snapshots/rot13/initial.u16le.bin.gz",
+      "sha256": "68cf934f1b65592189190f42554e3a5c8bcce4df5c5c42d71945d33ac8561c90"
+    },
+    {
+      "bytes": 15964,
+      "path": "snapshots/rot13/step_00005000.u16le.bin.gz",
+      "sha256": "18b6374875f819cdf53b036655e58296113107c5bd138a32dd146da39ba429ef"
+    },
+    {
+      "bytes": 16488,
+      "path": "snapshots/rot13/step_00010000.u16le.bin.gz",
+      "sha256": "5c9f4bf8f170cfe3046039505efa407cd5d10070161039a117a25cbf9c242ecc"
+    },
+    {
+      "bytes": 16690,
+      "path": "snapshots/rot13/step_00015000.u16le.bin.gz",
+      "sha256": "b5ab954400726963aceac0251e9df33a267015f3a214c412cae5f9789cb68361"
+    },
+    {
+      "bytes": 16371,
+      "path": "snapshots/rot13/step_00020000.u16le.bin.gz",
+      "sha256": "4ff75dc115f47c4a3326fd2e67bc6629c1f7144cee63d5b53ec6e34a51ea5d17"
+    },
+    {
+      "bytes": 12416,
+      "path": "snapshots/rule90/final.u16le.bin.gz",
+      "sha256": "93ef727e3a69e4f29ee5740c315704bd68dd9da6aff4dd0f3078c81915504e1a"
+    },
+    {
+      "bytes": 12210,
+      "path": "snapshots/rule90/initial.u16le.bin.gz",
+      "sha256": "e3e60aab751a853cade43a27351e9e559a574f13096c5dfaaaca94e1291fe1ac"
+    },
+    {
+      "bytes": 1373,
+      "path": "snapshots/sort2/final.u16le.bin.gz",
+      "sha256": "68eaa63dddc1c1d0cf30504dfe228333535dae4f6fb338cc26dc3afe709a56f3"
+    },
+    {
+      "bytes": 1151,
+      "path": "snapshots/sort2/initial.u16le.bin.gz",
+      "sha256": "e0b5b6061cea3627edb49d6dd09fb1caf2240d7a5636f84dae2b92110d372941"
+    },
+    {
+      "bytes": 433,
+      "path": "snapshots/truth_0/final.u16le.bin.gz",
+      "sha256": "ca9ffcca9f47208199504c9cc31459b22f48e900a04264d051c8ae1cf9f49a70"
+    },
+    {
+      "bytes": 432,
+      "path": "snapshots/truth_0/initial.u16le.bin.gz",
+      "sha256": "51b45881bcecfd84043d8ff4c63da9b0a0a3f17842562c14c3e1b0d0f268ca5a"
+    },
+    {
+      "bytes": 434,
+      "path": "snapshots/truth_1/final.u16le.bin.gz",
+      "sha256": "9c6f59c129722fbb64452058f2677b8d7361e338e00cb2cbb354c198f3c11223"
+    },
+    {
+      "bytes": 432,
+      "path": "snapshots/truth_1/initial.u16le.bin.gz",
+      "sha256": "51b45881bcecfd84043d8ff4c63da9b0a0a3f17842562c14c3e1b0d0f268ca5a"
+    },
+    {
+      "bytes": 442,
+      "path": "snapshots/truth_1/step_00005000.u16le.bin.gz",
+      "sha256": "0d658e2334bb37acf40af885cf5e4f687ef8281e6f85200196f578450fd90dde"
+    },
+    {
+      "bytes": 18172,
+      "path": "traces/add.jsonl.gz",
+      "sha256": "2a3c02f0bc738adcda5c9421d40a298d600e2fed51caf85a438cab343a2019d5"
+    },
+    {
+      "bytes": 604899,
+      "path": "traces/bottles.jsonl.gz",
+      "sha256": "19acd77fc7cfcf7bca75b3fbbd808a6492dc46f8d69fbeda52449d3b2c5d224d"
+    },
+    {
+      "bytes": 259031,
+      "path": "traces/cat.jsonl.gz",
+      "sha256": "ac0d44b6c9d54e1d569bf0c25f572b6e99b861d5e0bd30693925ec66d332e4e4"
+    },
+    {
+      "bytes": 49926,
+      "path": "traces/clock.jsonl.gz",
+      "sha256": "ea99fa2752801795be41a10bd5744a55312ba3dcd9042159ede1b7f26577eeb8"
+    },
+    {
+      "bytes": 2077,
+      "path": "traces/hello.jsonl.gz",
+      "sha256": "564dd49a9e351fff7fa1985a2a258202c3be3e47c8901aec810943324427fe27"
+    },
+    {
+      "bytes": 10974,
+      "path": "traces/rev.jsonl.gz",
+      "sha256": "ba1c4e9290093474bb8b7a704a2da55eb9403c29cf702509f78e32fa8f72e023"
+    },
+    {
+      "bytes": 608664,
+      "path": "traces/rot13.jsonl.gz",
+      "sha256": "96fe06e098c5b2d1f3ec119d47aaf024986bd80a134e54397ede51462471f271"
+    },
+    {
+      "bytes": 9605,
+      "path": "traces/rule90.jsonl.gz",
+      "sha256": "c412a196e797eda406d14a64c56a7b46bed1b528a48b9859cd53f8615f7966e7"
+    },
+    {
+      "bytes": 23882,
+      "path": "traces/sort2.jsonl.gz",
+      "sha256": "744d60fab9e53c813132100f9ff51542173705d0e3538f09e27ffe786fdd40d8"
+    },
+    {
+      "bytes": 1439,
+      "path": "traces/truth_0.jsonl.gz",
+      "sha256": "74cd351457f30d9f2f382dc8ab5f5a213fe6033cfd904f39af80147d17071a91"
+    },
+    {
+      "bytes": 48819,
+      "path": "traces/truth_1.jsonl.gz",
+      "sha256": "c73d310d339af48c345392fcd46d0662d1790a554cce29da1d887529c9b25c1e"
+    }
+  ],
+  "run_id": "MAL-E01_20261123T024848Z",
+  "schema": "fibonalgge-artifact-manifest/v1"
+}

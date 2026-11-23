@@ -1,0 +1,14 @@
+[
+  {
+    "command": "python3 mal_e01.py run --run-id MAL-E01_20261123T021343Z",
+    "exit_code": 0,
+    "stdout": "logs/run.stdout.json",
+    "stderr": "logs/run.stderr.txt"
+  },
+  {
+    "command": "python3 -m unittest discover -s tests -v",
+    "exit_code": 0,
+    "stdout": "logs/tests.stdout.txt",
+    "stderr": "logs/tests.stderr.txt"
+  }
+]

@@ -1,0 +1,76 @@
+{
+  "run_id": "MAL-E01_20261123T021343Z",
+  "gates": {
+    "semantic_integrity": true,
+    "mathematical_reproducibility": true,
+    "out_of_sample_note": "Las m\u00e9tricas est\u00e1n en execution_analysis; ning\u00fan accuracy aislado se promociona a transformaci\u00f3n exacta."
+  },
+  "cases": [
+    {
+      "name": "hello",
+      "terminal": "HALT",
+      "steps": 47,
+      "parity": true
+    },
+    {
+      "name": "sort2",
+      "terminal": "HALT",
+      "steps": 812,
+      "parity": true
+    },
+    {
+      "name": "cat",
+      "terminal": "HALT",
+      "steps": 9433,
+      "parity": true
+    },
+    {
+      "name": "clock",
+      "terminal": "HALT",
+      "steps": 1806,
+      "parity": true
+    },
+    {
+      "name": "add",
+      "terminal": "HALT",
+      "steps": 614,
+      "parity": true
+    },
+    {
+      "name": "rot13",
+      "terminal": "MAX_STEPS",
+      "steps": 20000,
+      "parity": true
+    },
+    {
+      "name": "truth_0",
+      "terminal": "HALT",
+      "steps": 38,
+      "parity": true
+    },
+    {
+      "name": "truth_1",
+      "terminal": "MAX_STEPS",
+      "steps": 5000,
+      "parity": true
+    },
+    {
+      "name": "rev",
+      "terminal": "HALT",
+      "steps": 362,
+      "parity": true
+    },
+    {
+      "name": "rule90",
+      "terminal": "HALT",
+      "steps": 322,
+      "parity": true
+    },
+    {
+      "name": "bottles",
+      "terminal": "MAX_STEPS",
+      "steps": 20000,
+      "parity": true
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+test_canonical_table_and_order (test_algebra.CrazyAlgebraTests.test_canonical_table_and_order) ... ok
+test_constant_time_prediction_all_pairs (test_algebra.CrazyAlgebraTests.test_constant_time_prediction_all_pairs) ... ok
+test_pair_graph_is_fully_characterized (test_algebra.CrazyAlgebraTests.test_pair_graph_is_fully_characterized) ... ok
+test_xlat2_has_an_exact_phase_representation (test_algebra.CrazyAlgebraTests.test_xlat2_has_an_exact_phase_representation) ... ok
+test_all_nine_uniform_trit_pairs_full_memory (test_algebra.TailModelTests.test_all_nine_uniform_trit_pairs_full_memory) ... ok
+test_far_positions_and_source_preservation (test_algebra.TailModelTests.test_far_positions_and_source_preservation) ... ok
+test_seeded_nonuniform_cases_full_memory (test_algebra.TailModelTests.test_seeded_nonuniform_cases_full_memory) ... ok
+test_fibonacci_is_not_assumed (test_models.ModelSplitTests.test_fibonacci_is_not_assumed) ... ok
+test_markov_context_does_not_cross_sequences (test_models.ModelSplitTests.test_markov_context_does_not_cross_sequences) ... ok
+test_scores_can_share_denominator (test_models.ModelSplitTests.test_scores_can_share_denominator) ... ok
+test_hello_against_c_oracle (test_vm.IndependentVMParityTests.test_hello_against_c_oracle) ... ok
+test_prefixes_against_pureepoch_machine (test_vm.IndependentVMParityTests.test_prefixes_against_pureepoch_machine) ... ok
+test_rotation_is_ten_trit_rotation (test_vm.PrimitiveTests.test_rotation_is_ten_trit_rotation) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 1.852s
+
+OK

@@ -1,0 +1,1187 @@
+{
+  "cases": [
+    {
+      "c_oracle": {
+        "command": [
+          "/home/danny/Development/ISyCo Git/BolgeForge/mb_ref",
+          "/home/danny/Development/ISyCo Git/BolgeForge/reference/malbolge_org/hello_world.mal",
+          "5000"
+        ],
+        "output_hex": "48656c6c6f2c20776f726c642e",
+        "output_sha256": "f8c3bf62a9aa3e6fc1619c250e48abe7519373d3edf41be62eb5dc45199af2ef",
+        "returncode": 0,
+        "stderr_utf8": "",
+        "terminal": "HALT"
+      },
+      "case": {
+        "max_steps": 5000,
+        "name": "hello",
+        "payload_hex": "",
+        "relative_path": "../BolgeForge/reference/malbolge_org/hello_world.mal",
+        "split": "discovery"
+      },
+      "checkpoint_interval": 5000,
+      "checkpoints": [
+        {
+          "a": 0,
+          "c": 0,
+          "d": 0,
+          "events": 0,
+          "input_cursor": 0,
+          "label": "initial",
+          "memory_sha256": "8ca44c9e702de608d6a7c2df597c3031db096874a57b3d93bfb29cdf49784058",
+          "output_length": 0,
+          "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "snapshot_gzip_bytes": 435,
+          "snapshot_gzip_sha256": "ae0ac566290dba8e031a30076b16430fbe194311aacccefc59eb0ab33b18ad58",
+          "snapshot_path": "snapshots/hello/initial.u16le.bin.gz",
+          "snapshot_uncompressed_bytes": 118098,
+          "steps": 0
+        },
+        {
+          "a": 19758,
+          "c": 85,
+          "d": 63,
+          "events": 48,
+          "input_cursor": 0,
+          "label": "final",
+          "memory_sha256": "e3cd1a1bda1de5935ccba7c4bbac4d3dec092438852b31def000c2b4b84798bf",
+          "output_length": 13,
+          "output_sha256": "f8c3bf62a9aa3e6fc1619c250e48abe7519373d3edf41be62eb5dc45199af2ef",
+          "snapshot_gzip_bytes": 449,
+          "snapshot_gzip_sha256": "afd602ec6c8a828f826311ab52b540a10043ad2ab20b7abbf159de3ad418e229",
+          "snapshot_path": "snapshots/hello/final.u16le.bin.gz",
+          "snapshot_uncompressed_bytes": 118098,
+          "steps": 47
+        }
+      ],
+      "initial_memory_sha256": "e3cd1a1bda1de5935ccba7c4bbac4d3dec092438852b31def000c2b4b84798bf",
+      "input_hex": "",
+      "naive_initialization_equal": true,
+      "parity": {
+        "halt_step_count_from_c": "NOT_EXPOSED_BY_MB_REF",
+        "max_steps_equal": null,
+        "output_equal": true,
+        "pass": true,
+        "terminal_equal_with_stall_mapping": true
+      },
+      "process_max_rss_kib": 717324,
+      "program_absolute_path": "/home/danny/Development/ISyCo Git/BolgeForge/reference/malbolge_org/hello_world.mal",
+      "python": {
+        "a": 19758,
+        "c": 85,
+        "d": 63,
+        "events": 48,
+        "input_cursor": 0,
+        "memory_sha256": "e3cd1a1bda1de5935ccba7c4bbac4d3dec092438852b31def000c2b4b84798bf",
+        "output_hex": "48656c6c6f2c20776f726c642e",
+        "output_sha256": "f8c3bf62a9aa3e6fc1619c250e48abe7519373d3edf41be62eb5dc45199af2ef",
+        "steps": 47,
+        "terminal": "HALT"
+      },
+      "source_bytes": 89,
+      "source_cells": 88,
+      "source_sha256": "c8a95363dbe2e997192834cf42a6f317be4a3bef93263e026300bc8243e77601",
+      "trace": {
+        "format": "JSONL gzip; escrituras [address,old,new,cause]",
+        "gzip_bytes": 2077,
+        "gzip_ratio": 0.1681645210914096,
+        "gzip_sha256": "564dd49a9e351fff7fa1985a2a258202c3be3e47c8901aec810943324427fe27",
+        "path": "traces/hello.jsonl.gz",
+        "uncompressed_bytes": 12351,
+        "uncompressed_sha256": "a5aea2801e1a12c6acd63b01a406daee1672ad844ed50aaa1662a8aafd2d7371"
+      },
+      "wall_seconds": 0.08419779798714444
+    },
+    {
+      "c_oracle": {
+        "command": [
+          "/home/danny/Development/ISyCo Git/BolgeForge/mb_ref",
+          "/home/danny/Development/ISyCo Git/Malbolge-PureEpoch/candidates/sort2_real.mal",
+          "5000"
+        ],
+        "output_hex": "3132",
+        "output_sha256": "6b51d431df5d7f141cbececcf79edf3dd861c3b4069f0b11661a3eefacbba918",
+        "returncode": 0,
+        "stderr_utf8": "",
+        "terminal": "HALT"
+      },
+      "case": {
+        "max_steps": 5000,
+        "name": "sort2",
+        "payload_hex": "3231",
+        "relative_path": "../Malbolge-PureEpoch/candidates/sort2_real.mal",
+        "split": "discovery"
+      },
+      "checkpoint_interval": 5000,
+      "checkpoints": [
+        {
+          "a": 0,
+          "c": 0,
+          "d": 0,
+          "events": 0,
+          "input_cursor": 0,
+          "label": "initial",
+          "memory_sha256": "c824e4f55b333276a6ccf34c577ee0a513a72aea4e6078fe6feb16e3feef0d7d",
+          "output_length": 0,
+          "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "snapshot_gzip_bytes": 1151,
+          "snapshot_gzip_sha256": "e0b5b6061cea3627edb49d6dd09fb1caf2240d7a5636f84dae2b92110d372941",
+          "snapshot_path": "snapshots/sort2/initial.u16le.bin.gz",
+          "snapshot_uncompressed_bytes": 118098,
+          "steps": 0
+        },
+        {
+          "a": 50,
+          "c": 2451,
+          "d": 92,
+          "events": 813,
+          "input_cursor": 2,
+          "label": "final",
+          "memory_sha256": "48e3f09eedcee5e1d20323c2ed2960e60c269ecffcb3ce1d95d18b744134fd31",
+          "output_length": 2,
+          "output_sha256": "6b51d431df5d7f141cbececcf79edf3dd861c3b4069f0b11661a3eefacbba918",
+          "snapshot_gzip_bytes": 1373,
+          "snapshot_gzip_sha256": "68eaa63dddc1c1d0cf30504dfe228333535dae4f6fb338cc26dc3afe709a56f3",
+          "snapshot_path": "snapshots/sort2/final.u16le.bin.gz",
+          "snapshot_uncompressed_bytes": 118098,
+          "steps": 812
+        }
+      ],
+      "initial_memory_sha256": "48e3f09eedcee5e1d20323c2ed2960e60c269ecffcb3ce1d95d18b744134fd31",
+      "input_hex": "3231",
+      "naive_initialization_equal": true,
+      "parity": {
+        "halt_step_count_from_c": "NOT_EXPOSED_BY_MB_REF",
+        "max_steps_equal": null,
+        "output_equal": true,
+        "pass": true,
+        "terminal_equal_with_stall_mapping": true
+      },
+      "process_max_rss_kib": 717324,
+      "program_absolute_path": "/home/danny/Development/ISyCo Git/Malbolge-PureEpoch/candidates/sort2_real.mal",
+      "python": {
+        "a": 50,
+        "c": 2451,
+        "d": 92,
+        "events": 813,
+        "input_cursor": 2,
+        "memory_sha256": "48e3f09eedcee5e1d20323c2ed2960e60c269ecffcb3ce1d95d18b744134fd31",
+        "output_hex": "3132",
+        "output_sha256": "6b51d431df5d7f141cbececcf79edf3dd861c3b4069f0b11661a3eefacbba918",
+        "steps": 812,
+        "terminal": "HALT"
+      },
+      "source_bytes": 2452,
+      "source_cells": 2452,
+      "source_sha256": "d92a78c21ad4afa6302a5a77dae9cc2cebd053eeeb544c6f5d525aa77168a321",
+      "trace": {
+        "format": "JSONL gzip; escrituras [address,old,new,cause]",
+        "gzip_bytes": 23882,
+        "gzip_ratio": 0.11260844964164467,
+        "gzip_sha256": "744d60fab9e53c813132100f9ff51542173705d0e3538f09e27ffe786fdd40d8",
+        "path": "traces/sort2.jsonl.gz",
+        "uncompressed_bytes": 212080,
+        "uncompressed_sha256": "a818a446cc451f7e511c9eb7b84109d7dcd00ab5b9461529e6f7461f9a690418"
+      },
+      "wall_seconds": 0.09835829501389526
+    },
+    {
+      "c_oracle": {
+        "command": [
+          "/home/danny/Development/ISyCo Git/BolgeForge/mb_ref",
+          "/home/danny/Development/ISyCo Git/Malbolge-PureEpoch/candidates/cat_real.mal",
+          "20000"
+        ],
+        "output_hex": "4669620a",
+        "output_sha256": "5e26f7a7969415f1e9cd7e7f2cd85a4024f6da93807199a7c2a7994ef2852dba",
+        "returncode": 0,
+        "stderr_utf8": "",
+        "terminal": "HALT"
+      },
+      "case": {
+        "max_steps": 20000,
+        "name": "cat",
+        "payload_hex": "4669620a",
+        "relative_path": "../Malbolge-PureEpoch/candidates/cat_real.mal",
+        "split": "discovery"
+      },
+      "checkpoint_interval": 5000,
+      "checkpoints": [
+        {
+          "a": 0,
+          "c": 0,
+          "d": 0,
+          "events": 0,
+          "input_cursor": 0,
+          "label": "initial",
+          "memory_sha256": "93389b1b488674acf973bfcfa6344188c67cb6ec967b29620a806ab10f4f0687",
+          "output_length": 0,
+          "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "snapshot_gzip_bytes": 5202,
+          "snapshot_gzip_sha256": "a6b7c0c00696768eca42d53900c3ed05538cd1ab52b11d5d807794a819a31ebe",
+          "snapshot_path": "snapshots/cat/initial.u16le.bin.gz",
+          "snapshot_uncompressed_bytes": 118098,
+          "steps": 0
+        },
+        {
+          "a": 58809,
+          "c": 5098,
+          "d": 49,
+          "events": 5000,
+          "input_cursor": 0,
+          "label": "step_00005000",
+          "memory_sha256": "5609199f2f602c80bdd726ab529044efce4e9b25b643aeaa5b0c0a52e3c283bd",
+          "output_length": 0,
+          "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "snapshot_gzip_bytes": 6149,
+          "snapshot_gzip_sha256": "fd15c0a2e8d99f3020e281b1963f2839bb4674f8eb3714da1791dc5e65921c61",
+          "snapshot_path": "snapshots/cat/step_00005000.u16le.bin.gz",
+          "snapshot_uncompressed_bytes": 118098,
+          "steps": 5000
+        },
+        {
+          "a": 59047,
+          "c": 7615,
+          "d": 58952,
+          "events": 9434,
+          "input_cursor": 4,
+          "label": "final",
+          "memory_sha256": "86c814f82f5e60194ba10f4f80f59bba10ed284cc09d089e3e64d249c6ee9209",
+          "output_length": 4,
+          "output_sha256": "5e26f7a7969415f1e9cd7e7f2cd85a4024f6da93807199a7c2a7994ef2852dba",
+          "snapshot_gzip_bytes": 5635,
+          "snapshot_gzip_sha256": "5c656db22edc4cb876577536e4f5a4199f8c800fd710221f9b5def3f7621043c",
+          "snapshot_path": "snapshots/cat/final.u16le.bin.gz",
+          "snapshot_uncompressed_bytes": 118098,
+          "steps": 9433
+        }
+      ],
+      "initial_memory_sha256": "86c814f82f5e60194ba10f4f80f59bba10ed284cc09d089e3e64d249c6ee9209",
+      "input_hex": "4669620a",
+      "naive_initialization_equal": true,
+      "parity": {
+        "halt_step_count_from_c": "NOT_EXPOSED_BY_MB_REF",
+        "max_steps_equal": null,
+        "output_equal": true,
+        "pass": true,
+        "terminal_equal_with_stall_mapping": true
+      },
+      "process_max_rss_kib": 717324,
+      "program_absolute_path": "/home/danny/Development/ISyCo Git/Malbolge-PureEpoch/candidates/cat_real.mal",
+      "python": {
+        "a": 59047,
+        "c": 7615,
+        "d": 58952,
+        "events": 9434,
+        "input_cursor": 4,
+        "memory_sha256": "86c814f82f5e60194ba10f4f80f59bba10ed284cc09d089e3e64d249c6ee9209",
+        "output_hex": "4669620a",
+        "output_sha256": "5e26f7a7969415f1e9cd7e7f2cd85a4024f6da93807199a7c2a7994ef2852dba",
+        "steps": 9433,
+        "terminal": "HALT"
+      },
+      "source_bytes": 7972,
+      "source_cells": 7972,
+      "source_sha256": "0d298645bcabd8c832c6bbad0769124828a8805bb46cc4644e35added50334f1",
+      "trace": {
+        "format": "JSONL gzip; escrituras [address,old,new,cause]",
+        "gzip_bytes": 259031,
+        "gzip_ratio": 0.10219366577675447,
+        "gzip_sha256": "ac0d44b6c9d54e1d569bf0c25f572b6e99b861d5e0bd30693925ec66d332e4e4",
+        "path": "traces/cat.jsonl.gz",
+        "uncompressed_bytes": 2534707,
+        "uncompressed_sha256": "ea1e82039defdc45914ea82c0c1e3c73cc5a5a41de528afa04accd39b9f885a7"
+      },
+      "wall_seconds": 0.23709731400595047
+    },
+    {
+      "c_oracle": {
+        "command": [
+          "/home/danny/Development/ISyCo Git/BolgeForge/mb_ref",
+          "/home/danny/Development/ISyCo Git/Malbolge-PureEpoch/candidates/reloj_carry.mal",
+          "5000"
+        ],
+        "output_hex": "30303a35390a30313a30300a",
+        "output_sha256": "4aef47f4c918e1663f3acfd34f6c7efb635be3209d72fe94b8e3631f5a465e89",
+        "returncode": 0,
+        "stderr_utf8": "",
+        "terminal": "HALT"
+      },
+      "case": {
+        "max_steps": 5000,
+        "name": "clock",
+        "payload_hex": "",
+        "relative_path": "../Malbolge-PureEpoch/candidates/reloj_carry.mal",
+        "split": "discovery"
+      },
+      "checkpoint_interval": 5000,
+      "checkpoints": [
+        {
+          "a": 0,
+          "c": 0,
+          "d": 0,
+          "events": 0,
+          "input_cursor": 0,
+          "label": "initial",
+          "memory_sha256": "bf6dfd122c237f3b26df385e6e1291f1334818c9737ef6d1aad056bcc3076cac",
+          "output_length": 0,
+          "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "snapshot_gzip_bytes": 1397,
+          "snapshot_gzip_sha256": "0f78929a11a9455c7fdeb1ca4300c2c67be610bcb4866f91bc364d5271440455",
+          "snapshot_path": "snapshots/clock/initial.u16le.bin.gz",
+          "snapshot_uncompressed_bytes": 118098,
+          "steps": 0
+        },
+        {
+          "a": 118,
+          "c": 1904,
+          "d": 58,
+          "events": 1807,
+          "input_cursor": 0,
+          "label": "final",
+          "memory_sha256": "e5a6b4f2b725e47154180111f0474d6f0bc79bad19b24df7fd564dea8cb7ee71",
+          "output_length": 12,
+          "output_sha256": "4aef47f4c918e1663f3acfd34f6c7efb635be3209d72fe94b8e3631f5a465e89",
+          "snapshot_gzip_bytes": 1479,
+          "snapshot_gzip_sha256": "8b2279788d983559879a6a448b151b6bc5de9ee85fcc19c0fcfaad804eb5c4a6",
+          "snapshot_path": "snapshots/clock/final.u16le.bin.gz",
+          "snapshot_uncompressed_bytes": 118098,
+          "steps": 1806
+        }
+      ],
+      "initial_memory_sha256": "e5a6b4f2b725e47154180111f0474d6f0bc79bad19b24df7fd564dea8cb7ee71",
+      "input_hex": "",
+      "naive_initialization_equal": true,
+      "parity": {
+        "halt_step_count_from_c": "NOT_EXPOSED_BY_MB_REF",
+        "max_steps_equal": null,
+        "output_equal": true,
+        "pass": true,
+        "terminal_equal_with_stall_mapping": true
+      },
+      "process_max_rss_kib": 717324,
+      "program_absolute_path": "/home/danny/Development/ISyCo Git/Malbolge-PureEpoch/candidates/reloj_carry.mal",
+      "python": {
+        "a": 118,
+        "c": 1904,
+        "d": 58,
+        "events": 1807,
+        "input_cursor": 0,
+        "memory_sha256": "e5a6b4f2b725e47154180111f0474d6f0bc79bad19b24df7fd564dea8cb7ee71",
+        "output_hex": "30303a35390a30313a30300a",
+        "output_sha256": "4aef47f4c918e1663f3acfd34f6c7efb635be3209d72fe94b8e3631f5a465e89",
+        "steps": 1806,
+        "terminal": "HALT"
+      },
+      "source_bytes": 1905,
+      "source_cells": 1905,
+      "source_sha256": "2573ab1da5c880acdcd99a6821440a97597ad06663325702ac60d1af7f514f94",
+      "trace": {
+        "format": "JSONL gzip; escrituras [address,old,new,cause]",
+        "gzip_bytes": 49926,
+        "gzip_ratio": 0.10632235312156602,
+        "gzip_sha256": "ea99fa2752801795be41a10bd5744a55312ba3dcd9042159ede1b7f26577eeb8",
+        "path": "traces/clock.jsonl.gz",
+        "uncompressed_bytes": 469572,
+        "uncompressed_sha256": "9a7af2445e2514cb877f92e60a42b452b0ba3e1b03a8165b4f70d3a6e5d78e33"
+      },
+      "wall_seconds": 0.11368594897794537
+    },
+    {
+      "c_oracle": {
+        "command": [
+          "/home/danny/Development/ISyCo Git/BolgeForge/mb_ref",
+          "/home/danny/Development/ISyCo Git/Malbolge-PureEpoch/candidates/add_real.mal",
+          "5000"
+        ],
+        "output_hex": "32",
+        "output_sha256": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35",
+        "returncode": 0,
+        "stderr_utf8": "",
+        "terminal": "HALT"
+      },
+      "case": {
+        "max_steps": 5000,
+        "name": "add",
+        "payload_hex": "3131",
+        "relative_path": "../Malbolge-PureEpoch/candidates/add_real.mal",
+        "split": "discovery"
+      },
+      "checkpoint_interval": 5000,
+      "checkpoints": [
+        {
+          "a": 0,
+          "c": 0,
+          "d": 0,
+          "events": 0,
+          "input_cursor": 0,
+          "label": "initial",
+          "memory_sha256": "ddedbba95033e63bcec489ed28095a40fe403325d61df2d3ea495b20321292c0",
+          "output_length": 0,
+          "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "snapshot_gzip_bytes": 1112,
+          "snapshot_gzip_sha256": "499052436795465294b2bd69f024a7f5e91678ead91352541e5468b19eebf56e",
+          "snapshot_path": "snapshots/add/initial.u16le.bin.gz",
+          "snapshot_uncompressed_bytes": 118098,
+          "steps": 0
+        },
+        {
+          "a": 32818,
+          "c": 26380,
+          "d": 36,
+          "events": 615,
+          "input_cursor": 2,
+          "label": "final",
+          "memory_sha256": "d85b443a51d8503820a63d931aacfeb3015dfe3365a2a2da4581924f6068be9d",
+          "output_length": 1,
+          "output_sha256": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35",
+          "snapshot_gzip_bytes": 1294,
+          "snapshot_gzip_sha256": "ad62a24d9894b31aa914db269e864d0c40387572b423d0392ba313ae386867d9",
+          "snapshot_path": "snapshots/add/final.u16le.bin.gz",
+          "snapshot_uncompressed_bytes": 118098,
+          "steps": 614
+        }
+      ],
+      "initial_memory_sha256": "d85b443a51d8503820a63d931aacfeb3015dfe3365a2a2da4581924f6068be9d",
+      "input_hex": "3131",
+      "naive_initialization_equal": true,
+      "parity": {
+        "halt_step_count_from_c": "NOT_EXPOSED_BY_MB_REF",
+        "max_steps_equal": null,
+        "output_equal": true,
+        "pass": true,
+        "terminal_equal_with_stall_mapping": true
+      },
+      "process_max_rss_kib": 717324,
+      "program_absolute_path": "/home/danny/Development/ISyCo Git/Malbolge-PureEpoch/candidates/add_real.mal",
+      "python": {
+        "a": 32818,
+        "c": 26380,
+        "d": 36,
+        "events": 615,
+        "input_cursor": 2,
+        "memory_sha256": "d85b443a51d8503820a63d931aacfeb3015dfe3365a2a2da4581924f6068be9d",
+        "output_hex": "32",
+        "output_sha256": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35",
+        "steps": 614,
+        "terminal": "HALT"
+      },
+      "source_bytes": 26474,
+      "source_cells": 26474,
+      "source_sha256": "ec8b4801ed5b4554e3df87db39f9d933214e6bff202eff3cc6b3b4670749c2a8",
+      "trace": {
+        "format": "JSONL gzip; escrituras [address,old,new,cause]",
+        "gzip_bytes": 18172,
+        "gzip_ratio": 0.11316477768090671,
+        "gzip_sha256": "2a3c02f0bc738adcda5c9421d40a298d600e2fed51caf85a438cab343a2019d5",
+        "path": "traces/add.jsonl.gz",
+        "uncompressed_bytes": 160580,
+        "uncompressed_sha256": "9eaf7936a2a1cefb179ed4bf17bb2eda19974886bb3ca88914b2912a8058d7b9"
+      },
+      "wall_seconds": 0.06831788399722427
+    },
+    {
+      "c_oracle": {
+        "command": [
+          "/home/danny/Development/ISyCo Git/BolgeForge/mb_ref",
+          "/home/danny/Development/ISyCo Git/BolgeForge/reference/malbolge_org/rot13.mal",
+          "20000"
+        ],
+        "output_hex": "",
+        "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "returncode": 2,
+        "stderr_utf8": "MAX_STEPS: 20000 (HALT not reached)\n",
+        "terminal": "MAX_STEPS"
+      },
+      "case": {
+        "max_steps": 20000,
+        "name": "rot13",
+        "payload_hex": "48656c6c6f2c204d616c626f6c6765210a",
+        "relative_path": "../BolgeForge/reference/malbolge_org/rot13.mal",
+        "split": "validation"
+      },
+      "checkpoint_interval": 5000,
+      "checkpoints": [
+        {
+          "a": 0,
+          "c": 0,
+          "d": 0,
+          "events": 0,
+          "input_cursor": 0,
+          "label": "initial",
+          "memory_sha256": "c7f531ca139543661dae874d43e89f3465a688133c03812cbd4681bec9ae90b0",
+          "output_length": 0,
+          "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "snapshot_gzip_bytes": 14199,
+          "snapshot_gzip_sha256": "68cf934f1b65592189190f42554e3a5c8bcce4df5c5c42d71945d33ac8561c90",
+          "snapshot_path": "snapshots/rot13/initial.u16le.bin.gz",
+          "snapshot_uncompressed_bytes": 118098,
+          "steps": 0
+        },
+        {
+          "a": 59048,
+          "c": 5467,
+          "d": 57,
+          "events": 5000,
+          "input_cursor": 0,
+          "label": "step_00005000",
+          "memory_sha256": "63993a8e12da4cf0818a6d16c38f8531d64e845abdf8dd96c69b89f53f2e2ed2",
+          "output_length": 0,
+          "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "snapshot_gzip_bytes": 15964,
+          "snapshot_gzip_sha256": "18b6374875f819cdf53b036655e58296113107c5bd138a32dd146da39ba429ef",
+          "snapshot_path": "snapshots/rot13/step_00005000.u16le.bin.gz",
+          "snapshot_uncompressed_bytes": 118098,
+          "steps": 5000
+        },
+        {
+          "a": 0,
+          "c": 10467,
+          "d": 58,
+          "events": 10000,
+          "input_cursor": 0,
+          "label": "step_00010000",
+          "memory_sha256": "7513946051f0b998bf0a63663e5b08defeca0a91c1dd9e3fb10a696cd2041efe",
+          "output_length": 0,
+          "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "snapshot_gzip_bytes": 16488,
+          "snapshot_gzip_sha256": "5c9f4bf8f170cfe3046039505efa407cd5d10070161039a117a25cbf9c242ecc",
+          "snapshot_path": "snapshots/rot13/step_00010000.u16le.bin.gz",
+          "snapshot_uncompressed_bytes": 118098,
+          "steps": 10000
+        },
+        {
+          "a": 29524,
+          "c": 15467,
+          "d": 61,
+          "events": 15000,
+          "input_cursor": 0,
+          "label": "step_00015000",
+          "memory_sha256": "cdfd8cd24c2dfbe82e624ee90d317e636c73c129f849a28e66b89d6aa04134d0",
+          "output_length": 0,
+          "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "snapshot_gzip_bytes": 16690,
+          "snapshot_gzip_sha256": "b5ab954400726963aceac0251e9df33a267015f3a214c412cae5f9789cb68361",
+          "snapshot_path": "snapshots/rot13/step_00015000.u16le.bin.gz",
+          "snapshot_uncompressed_bytes": 118098,
+          "steps": 15000
+        },
+        {
+          "a": 0,
+          "c": 20467,
+          "d": 59,
+          "events": 20000,
+          "input_cursor": 0,
+          "label": "step_00020000",
+          "memory_sha256": "07f31deebc2e690df177c66f48f3fa5b053d7893011c77a8cdd0ba059f32bece",
+          "output_length": 0,
+          "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "snapshot_gzip_bytes": 16371,
+          "snapshot_gzip_sha256": "4ff75dc115f47c4a3326fd2e67bc6629c1f7144cee63d5b53ec6e34a51ea5d17",
+          "snapshot_path": "snapshots/rot13/step_00020000.u16le.bin.gz",
+          "snapshot_uncompressed_bytes": 118098,
+          "steps": 20000
+        },
+        {
+          "a": 0,
+          "c": 20467,
+          "d": 59,
+          "events": 20000,
+          "input_cursor": 0,
+          "label": "final",
+          "memory_sha256": "07f31deebc2e690df177c66f48f3fa5b053d7893011c77a8cdd0ba059f32bece",
+          "output_length": 0,
+          "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "snapshot_gzip_bytes": 16363,
+          "snapshot_gzip_sha256": "99170502117b110d4fdfe0643027b9f8c3df8a2f45a743619c40f4ca4bc333e7",
+          "snapshot_path": "snapshots/rot13/final.u16le.bin.gz",
+          "snapshot_uncompressed_bytes": 118098,
+          "steps": 20000
+        }
+      ],
+      "initial_memory_sha256": "07f31deebc2e690df177c66f48f3fa5b053d7893011c77a8cdd0ba059f32bece",
+      "input_hex": "48656c6c6f2c204d616c626f6c6765210a",
+      "naive_initialization_equal": true,
+      "parity": {
+        "halt_step_count_from_c": "NOT_EXPOSED_BY_MB_REF",
+        "max_steps_equal": true,
+        "output_equal": true,
+        "pass": true,
+        "terminal_equal_with_stall_mapping": true
+      },
+      "process_max_rss_kib": 717324,
+      "program_absolute_path": "/home/danny/Development/ISyCo Git/BolgeForge/reference/malbolge_org/rot13.mal",
+      "python": {
+        "a": 0,
+        "c": 20467,
+        "d": 59,
+        "events": 20000,
+        "input_cursor": 0,
+        "memory_sha256": "07f31deebc2e690df177c66f48f3fa5b053d7893011c77a8cdd0ba059f32bece",
+        "output_hex": "",
+        "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "steps": 20000,
+        "terminal": "MAX_STEPS"
+      },
+      "source_bytes": 33383,
+      "source_cells": 33031,
+      "source_sha256": "3fa5d20f955265cc6a4dd28b5571a2a310c99d24b29077cfc4d654aa4ed88578",
+      "trace": {
+        "format": "JSONL gzip; escrituras [address,old,new,cause]",
+        "gzip_bytes": 608664,
+        "gzip_ratio": 0.11192248114471824,
+        "gzip_sha256": "96fe06e098c5b2d1f3ec119d47aaf024986bd80a134e54397ede51462471f271",
+        "path": "traces/rot13.jsonl.gz",
+        "uncompressed_bytes": 5438264,
+        "uncompressed_sha256": "7ee1275e2b8f67a3bc6645e71e83edefa47d99b33e757186f0407ed2b044e6b6"
+      },
+      "wall_seconds": 0.4224893279897515
+    },
+    {
+      "c_oracle": {
+        "command": [
+          "/home/danny/Development/ISyCo Git/BolgeForge/mb_ref",
+          "/home/danny/Development/ISyCo Git/Malbolge-PureEpoch/baseline/truth_machine_classic_90b.mal",
+          "5000"
+        ],
+        "output_hex": "30",
+        "output_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+        "returncode": 0,
+        "stderr_utf8": "",
+        "terminal": "HALT"
+      },
+      "case": {
+        "max_steps": 5000,
+        "name": "truth_0",
+        "payload_hex": "30",
+        "relative_path": "../Malbolge-PureEpoch/baseline/truth_machine_classic_90b.mal",
+        "split": "validation"
+      },
+      "checkpoint_interval": 5000,
+      "checkpoints": [
+        {
+          "a": 0,
+          "c": 0,
+          "d": 0,
+          "events": 0,
+          "input_cursor": 0,
+          "label": "initial",
+          "memory_sha256": "ca5d90641476514c80e8938a537bd69a38bb7a6fed261d8935076a96fe5b9c70",
+          "output_length": 0,
+          "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "snapshot_gzip_bytes": 432,
+          "snapshot_gzip_sha256": "51b45881bcecfd84043d8ff4c63da9b0a0a3f17842562c14c3e1b0d0f268ca5a",
+          "snapshot_path": "snapshots/truth_0/initial.u16le.bin.gz",
+          "snapshot_uncompressed_bytes": 118098,
+          "steps": 0
+        },
+        {
+          "a": 72,
+          "c": 73,
+          "d": 62,
+          "events": 39,
+          "input_cursor": 1,
+          "label": "final",
+          "memory_sha256": "bf782758bfe5887f15194a099f795536c3d1d760fff3ee8424c23aaf4720eedc",
+          "output_length": 1,
+          "output_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+          "snapshot_gzip_bytes": 433,
+          "snapshot_gzip_sha256": "ca9ffcca9f47208199504c9cc31459b22f48e900a04264d051c8ae1cf9f49a70",
+          "snapshot_path": "snapshots/truth_0/final.u16le.bin.gz",
+          "snapshot_uncompressed_bytes": 118098,
+          "steps": 38
+        }
+      ],
+      "initial_memory_sha256": "bf782758bfe5887f15194a099f795536c3d1d760fff3ee8424c23aaf4720eedc",
+      "input_hex": "30",
+      "naive_initialization_equal": true,
+      "parity": {
+        "halt_step_count_from_c": "NOT_EXPOSED_BY_MB_REF",
+        "max_steps_equal": null,
+        "output_equal": true,
+        "pass": true,
+        "terminal_equal_with_stall_mapping": true
+      },
+      "process_max_rss_kib": 717324,
+      "program_absolute_path": "/home/danny/Development/ISyCo Git/Malbolge-PureEpoch/baseline/truth_machine_classic_90b.mal",
+      "python": {
+        "a": 72,
+        "c": 73,
+        "d": 62,
+        "events": 39,
+        "input_cursor": 1,
+        "memory_sha256": "bf782758bfe5887f15194a099f795536c3d1d760fff3ee8424c23aaf4720eedc",
+        "output_hex": "30",
+        "output_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+        "steps": 38,
+        "terminal": "HALT"
+      },
+      "source_bytes": 90,
+      "source_cells": 90,
+      "source_sha256": "1e34e2afd1fc645dadac1f1aac0fe2348ff469878cc3da396a6a1e7bad2a4417",
+      "trace": {
+        "format": "JSONL gzip; escrituras [address,old,new,cause]",
+        "gzip_bytes": 1439,
+        "gzip_ratio": 0.1485189390029931,
+        "gzip_sha256": "74cd351457f30d9f2f382dc8ab5f5a213fe6033cfd904f39af80147d17071a91",
+        "path": "traces/truth_0.jsonl.gz",
+        "uncompressed_bytes": 9689,
+        "uncompressed_sha256": "8d44707a49c0b2d7e52f853df3e37bdbd1090c19f3c39cfc0343a2286e1dc079"
+      },
+      "wall_seconds": 0.08660181501181796
+    },
+    {
+      "c_oracle": {
+        "command": [
+          "/home/danny/Development/ISyCo Git/BolgeForge/mb_ref",
+          "/home/danny/Development/ISyCo Git/Malbolge-PureEpoch/baseline/truth_machine_classic_90b.mal",
+          "5000"
+        ],
+        "output_hex": "31313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131",
+        "output_sha256": "1bcfc77ad1d4426adb753072f9ca2ada3bc98a62ec3390004b3d0cdf35d80c27",
+        "returncode": 2,
+        "stderr_utf8": "MAX_STEPS: 5000 (HALT not reached)\n",
+        "terminal": "MAX_STEPS"
+      },
+      "case": {
+        "max_steps": 5000,
+        "name": "truth_1",
+        "payload_hex": "31",
+        "relative_path": "../Malbolge-PureEpoch/baseline/truth_machine_classic_90b.mal",
+        "split": "validation"
+      },
+      "checkpoint_interval": 5000,
+      "checkpoints": [
+        {
+          "a": 0,
+          "c": 0,
+          "d": 0,
+          "events": 0,
+          "input_cursor": 0,
+          "label": "initial",
+          "memory_sha256": "ca5d90641476514c80e8938a537bd69a38bb7a6fed261d8935076a96fe5b9c70",
+          "output_length": 0,
+          "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "snapshot_gzip_bytes": 432,
+          "snapshot_gzip_sha256": "51b45881bcecfd84043d8ff4c63da9b0a0a3f17842562c14c3e1b0d0f268ca5a",
+          "snapshot_path": "snapshots/truth_1/initial.u16le.bin.gz",
+          "snapshot_uncompressed_bytes": 118098,
+          "steps": 0
+        },
+        {
+          "a": 49,
+          "c": 65,
+          "d": 47,
+          "events": 5000,
+          "input_cursor": 1,
+          "label": "step_00005000",
+          "memory_sha256": "324b2f76976164a419ceae97c8ac5295b40091a4ecd190ebc3bb4934df39def9",
+          "output_length": 208,
+          "output_sha256": "1bcfc77ad1d4426adb753072f9ca2ada3bc98a62ec3390004b3d0cdf35d80c27",
+          "snapshot_gzip_bytes": 442,
+          "snapshot_gzip_sha256": "0d658e2334bb37acf40af885cf5e4f687ef8281e6f85200196f578450fd90dde",
+          "snapshot_path": "snapshots/truth_1/step_00005000.u16le.bin.gz",
+          "snapshot_uncompressed_bytes": 118098,
+          "steps": 5000
+        },
+        {
+          "a": 49,
+          "c": 65,
+          "d": 47,
+          "events": 5000,
+          "input_cursor": 1,
+          "label": "final",
+          "memory_sha256": "324b2f76976164a419ceae97c8ac5295b40091a4ecd190ebc3bb4934df39def9",
+          "output_length": 208,
+          "output_sha256": "1bcfc77ad1d4426adb753072f9ca2ada3bc98a62ec3390004b3d0cdf35d80c27",
+          "snapshot_gzip_bytes": 434,
+          "snapshot_gzip_sha256": "9c6f59c129722fbb64452058f2677b8d7361e338e00cb2cbb354c198f3c11223",
+          "snapshot_path": "snapshots/truth_1/final.u16le.bin.gz",
+          "snapshot_uncompressed_bytes": 118098,
+          "steps": 5000
+        }
+      ],
+      "initial_memory_sha256": "324b2f76976164a419ceae97c8ac5295b40091a4ecd190ebc3bb4934df39def9",
+      "input_hex": "31",
+      "naive_initialization_equal": true,
+      "parity": {
+        "halt_step_count_from_c": "NOT_EXPOSED_BY_MB_REF",
+        "max_steps_equal": true,
+        "output_equal": true,
+        "pass": true,
+        "terminal_equal_with_stall_mapping": true
+      },
+      "process_max_rss_kib": 717324,
+      "program_absolute_path": "/home/danny/Development/ISyCo Git/Malbolge-PureEpoch/baseline/truth_machine_classic_90b.mal",
+      "python": {
+        "a": 49,
+        "c": 65,
+        "d": 47,
+        "events": 5000,
+        "input_cursor": 1,
+        "memory_sha256": "324b2f76976164a419ceae97c8ac5295b40091a4ecd190ebc3bb4934df39def9",
+        "output_hex": "31313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131",
+        "output_sha256": "1bcfc77ad1d4426adb753072f9ca2ada3bc98a62ec3390004b3d0cdf35d80c27",
+        "steps": 5000,
+        "terminal": "MAX_STEPS"
+      },
+      "source_bytes": 90,
+      "source_cells": 90,
+      "source_sha256": "1e34e2afd1fc645dadac1f1aac0fe2348ff469878cc3da396a6a1e7bad2a4417",
+      "trace": {
+        "format": "JSONL gzip; escrituras [address,old,new,cause]",
+        "gzip_bytes": 48819,
+        "gzip_ratio": 0.039264211249322396,
+        "gzip_sha256": "c73d310d339af48c345392fcd46d0662d1790a554cce29da1d887529c9b25c1e",
+        "path": "traces/truth_1.jsonl.gz",
+        "uncompressed_bytes": 1243346,
+        "uncompressed_sha256": "107dab078efd9c66200135e103d1ec6df78cd9148296b9719b7c494eb91e020a"
+      },
+      "wall_seconds": 0.1405009970185347
+    },
+    {
+      "c_oracle": {
+        "command": [
+          "/home/danny/Development/ISyCo Git/BolgeForge/mb_ref",
+          "/home/danny/Development/ISyCo Git/Malbolge-PureEpoch/candidates/rev_real.mal",
+          "5000"
+        ],
+        "output_hex": "6261",
+        "output_sha256": "970f519c2cadbcefb1e81694f904bc6229dd2a8300e98c6d0d4fc4bfca584140",
+        "returncode": 0,
+        "stderr_utf8": "",
+        "terminal": "HALT"
+      },
+      "case": {
+        "max_steps": 5000,
+        "name": "rev",
+        "payload_hex": "616263",
+        "relative_path": "../Malbolge-PureEpoch/candidates/rev_real.mal",
+        "split": "validation"
+      },
+      "checkpoint_interval": 5000,
+      "checkpoints": [
+        {
+          "a": 0,
+          "c": 0,
+          "d": 0,
+          "events": 0,
+          "input_cursor": 0,
+          "label": "initial",
+          "memory_sha256": "550b3b60a181d371cb50c9fc62a12502a6cc0d2b0c013e31a373bdc6fb5ed7ee",
+          "output_length": 0,
+          "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "snapshot_gzip_bytes": 861,
+          "snapshot_gzip_sha256": "37c96aade557913c7a334a2ee91508ea3407ff902fe65fa7603bf0a3fa5fe6a5",
+          "snapshot_path": "snapshots/rev/initial.u16le.bin.gz",
+          "snapshot_uncompressed_bytes": 118098,
+          "steps": 0
+        },
+        {
+          "a": 97,
+          "c": 1245,
+          "d": 73,
+          "events": 363,
+          "input_cursor": 2,
+          "label": "final",
+          "memory_sha256": "d909f69611e3c897b5a9eb780a6d88cefac8e9a2e60a0c4633b5aaf702f4c53e",
+          "output_length": 2,
+          "output_sha256": "970f519c2cadbcefb1e81694f904bc6229dd2a8300e98c6d0d4fc4bfca584140",
+          "snapshot_gzip_bytes": 1029,
+          "snapshot_gzip_sha256": "aac8f24ee1d76958c7c6038a5496129e13d3fd545f0ac5fb63b1fb9a888ca4de",
+          "snapshot_path": "snapshots/rev/final.u16le.bin.gz",
+          "snapshot_uncompressed_bytes": 118098,
+          "steps": 362
+        }
+      ],
+      "initial_memory_sha256": "d909f69611e3c897b5a9eb780a6d88cefac8e9a2e60a0c4633b5aaf702f4c53e",
+      "input_hex": "616263",
+      "naive_initialization_equal": true,
+      "parity": {
+        "halt_step_count_from_c": "NOT_EXPOSED_BY_MB_REF",
+        "max_steps_equal": null,
+        "output_equal": true,
+        "pass": true,
+        "terminal_equal_with_stall_mapping": true
+      },
+      "process_max_rss_kib": 717324,
+      "program_absolute_path": "/home/danny/Development/ISyCo Git/Malbolge-PureEpoch/candidates/rev_real.mal",
+      "python": {
+        "a": 97,
+        "c": 1245,
+        "d": 73,
+        "events": 363,
+        "input_cursor": 2,
+        "memory_sha256": "d909f69611e3c897b5a9eb780a6d88cefac8e9a2e60a0c4633b5aaf702f4c53e",
+        "output_hex": "6261",
+        "output_sha256": "970f519c2cadbcefb1e81694f904bc6229dd2a8300e98c6d0d4fc4bfca584140",
+        "steps": 362,
+        "terminal": "HALT"
+      },
+      "source_bytes": 13185,
+      "source_cells": 13185,
+      "source_sha256": "dc3ccc2f2da2a59751fcdc7f963ce17ab7900a4fc5e50a5a4661cf104b1ae1dc",
+      "trace": {
+        "format": "JSONL gzip; escrituras [address,old,new,cause]",
+        "gzip_bytes": 10974,
+        "gzip_ratio": 0.11671860541793855,
+        "gzip_sha256": "ba1c4e9290093474bb8b7a704a2da55eb9403c29cf702509f78e32fa8f72e023",
+        "path": "traces/rev.jsonl.gz",
+        "uncompressed_bytes": 94021,
+        "uncompressed_sha256": "254923c873767ca884324941a7252a4f65841163139b2efce8d666d56a7e21c4"
+      },
+      "wall_seconds": 0.07607635398744605
+    },
+    {
+      "c_oracle": {
+        "command": [
+          "/home/danny/Development/ISyCo Git/BolgeForge/mb_ref",
+          "/home/danny/Development/ISyCo Git/Malbolge-PureEpoch/candidates/boss4_v3_ca.mal",
+          "5000"
+        ],
+        "output_hex": "",
+        "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "returncode": 0,
+        "stderr_utf8": "",
+        "terminal": "HALT"
+      },
+      "case": {
+        "max_steps": 5000,
+        "name": "rule90",
+        "payload_hex": "",
+        "relative_path": "../Malbolge-PureEpoch/candidates/boss4_v3_ca.mal",
+        "split": "validation"
+      },
+      "checkpoint_interval": 5000,
+      "checkpoints": [
+        {
+          "a": 0,
+          "c": 0,
+          "d": 0,
+          "events": 0,
+          "input_cursor": 0,
+          "label": "initial",
+          "memory_sha256": "3b690fedfbc2f94efd30254e7a1a5f32fd900764ab4773342c9167650778141b",
+          "output_length": 0,
+          "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "snapshot_gzip_bytes": 12210,
+          "snapshot_gzip_sha256": "e3e60aab751a853cade43a27351e9e559a574f13096c5dfaaaca94e1291fe1ac",
+          "snapshot_path": "snapshots/rule90/initial.u16le.bin.gz",
+          "snapshot_uncompressed_bytes": 118098,
+          "steps": 0
+        },
+        {
+          "a": 45936,
+          "c": 55,
+          "d": 15,
+          "events": 323,
+          "input_cursor": 0,
+          "label": "final",
+          "memory_sha256": "139028dbeebb1f4d30044d86b53e8d4f0f3241d06ea16e87482f73f2685e726e",
+          "output_length": 0,
+          "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "snapshot_gzip_bytes": 12416,
+          "snapshot_gzip_sha256": "93ef727e3a69e4f29ee5740c315704bd68dd9da6aff4dd0f3078c81915504e1a",
+          "snapshot_path": "snapshots/rule90/final.u16le.bin.gz",
+          "snapshot_uncompressed_bytes": 118098,
+          "steps": 322
+        }
+      ],
+      "initial_memory_sha256": "139028dbeebb1f4d30044d86b53e8d4f0f3241d06ea16e87482f73f2685e726e",
+      "input_hex": "",
+      "naive_initialization_equal": true,
+      "parity": {
+        "halt_step_count_from_c": "NOT_EXPOSED_BY_MB_REF",
+        "max_steps_equal": null,
+        "output_equal": true,
+        "pass": true,
+        "terminal_equal_with_stall_mapping": true
+      },
+      "process_max_rss_kib": 717324,
+      "program_absolute_path": "/home/danny/Development/ISyCo Git/Malbolge-PureEpoch/candidates/boss4_v3_ca.mal",
+      "python": {
+        "a": 45936,
+        "c": 55,
+        "d": 15,
+        "events": 323,
+        "input_cursor": 0,
+        "memory_sha256": "139028dbeebb1f4d30044d86b53e8d4f0f3241d06ea16e87482f73f2685e726e",
+        "output_hex": "",
+        "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "steps": 322,
+        "terminal": "HALT"
+      },
+      "source_bytes": 59049,
+      "source_cells": 59049,
+      "source_sha256": "d1d44e90ccae320c4d48123d0ccfcfdb9c7e79bf1817ffbd91b15dd8b8e3e5d9",
+      "trace": {
+        "format": "JSONL gzip; escrituras [address,old,new,cause]",
+        "gzip_bytes": 9605,
+        "gzip_ratio": 0.11656694862801734,
+        "gzip_sha256": "c412a196e797eda406d14a64c56a7b46bed1b528a48b9859cd53f8615f7966e7",
+        "path": "traces/rule90.jsonl.gz",
+        "uncompressed_bytes": 82399,
+        "uncompressed_sha256": "a61ef404f0453d39139eee784566ef73a2591cf026690c7f5849c0763c815e26"
+      },
+      "wall_seconds": 0.03433816498727538
+    },
+    {
+      "c_oracle": {
+        "command": [
+          "/home/danny/Development/ISyCo Git/BolgeForge/mb_ref",
+          "/home/danny/Development/ISyCo Git/BolgeForge/reference/malbolge_org/99_bottles.mal",
+          "20000"
+        ],
+        "output_hex": "",
+        "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "returncode": 2,
+        "stderr_utf8": "MAX_STEPS: 20000 (HALT not reached)\n",
+        "terminal": "MAX_STEPS"
+      },
+      "case": {
+        "max_steps": 20000,
+        "name": "bottles",
+        "payload_hex": "",
+        "relative_path": "../BolgeForge/reference/malbolge_org/99_bottles.mal",
+        "split": "validation"
+      },
+      "checkpoint_interval": 5000,
+      "checkpoints": [
+        {
+          "a": 0,
+          "c": 0,
+          "d": 0,
+          "events": 0,
+          "input_cursor": 0,
+          "label": "initial",
+          "memory_sha256": "27c9c594d79806502b53ab052b1b7c716c97b83f18d0c9c979bfe11fec44379e",
+          "output_length": 0,
+          "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "snapshot_gzip_bytes": 10989,
+          "snapshot_gzip_sha256": "8b7511929b3f7b0feb6d4a3c8ad064854625f6555a18014f731b608477e838b1",
+          "snapshot_path": "snapshots/bottles/initial.u16le.bin.gz",
+          "snapshot_uncompressed_bytes": 118098,
+          "steps": 0
+        },
+        {
+          "a": 1631,
+          "c": 5098,
+          "d": 37,
+          "events": 5000,
+          "input_cursor": 0,
+          "label": "step_00005000",
+          "memory_sha256": "81bfe9bef26ded367ea3ee1ea7de0c923acd9eff7f41a8a3f2267bd5af768723",
+          "output_length": 0,
+          "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "snapshot_gzip_bytes": 12589,
+          "snapshot_gzip_sha256": "6b0784831ae02c323219b5976ccb3c3bb8355308fa28f9fed1a608c40bd5b32d",
+          "snapshot_path": "snapshots/bottles/step_00005000.u16le.bin.gz",
+          "snapshot_uncompressed_bytes": 118098,
+          "steps": 5000
+        },
+        {
+          "a": 22154,
+          "c": 10098,
+          "d": 62,
+          "events": 10000,
+          "input_cursor": 0,
+          "label": "step_00010000",
+          "memory_sha256": "0e165081fb046a1739524cd543e294c31b16db40e7a8fdd3015a9a6e3511996b",
+          "output_length": 0,
+          "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "snapshot_gzip_bytes": 13015,
+          "snapshot_gzip_sha256": "1894400dad7b788834536e95e0cf2fa5b063ebc264801187043aeb22733c69f0",
+          "snapshot_path": "snapshots/bottles/step_00010000.u16le.bin.gz",
+          "snapshot_uncompressed_bytes": 118098,
+          "steps": 10000
+        },
+        {
+          "a": 48,
+          "c": 15098,
+          "d": 36,
+          "events": 15000,
+          "input_cursor": 0,
+          "label": "step_00015000",
+          "memory_sha256": "1206c1b17beea06d9c6f92f6925f734b9dd63ad1caf991c95d03635406ee9fed",
+          "output_length": 0,
+          "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "snapshot_gzip_bytes": 13012,
+          "snapshot_gzip_sha256": "66805586515ad563f95ab59ac485e62120e3c37d23cb76fc9e92a484d95c27c3",
+          "snapshot_path": "snapshots/bottles/step_00015000.u16le.bin.gz",
+          "snapshot_uncompressed_bytes": 118098,
+          "steps": 15000
+        },
+        {
+          "a": 59046,
+          "c": 20098,
+          "d": 60,
+          "events": 20000,
+          "input_cursor": 0,
+          "label": "step_00020000",
+          "memory_sha256": "ddf18c495c265869b300d996a23403f0852b0c604ce1162253d9d3b7e0a93d05",
+          "output_length": 0,
+          "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "snapshot_gzip_bytes": 12505,
+          "snapshot_gzip_sha256": "166b60c034e80303870de796654c686a79ad4625b2ddf8d00e561bf1c7db76a6",
+          "snapshot_path": "snapshots/bottles/step_00020000.u16le.bin.gz",
+          "snapshot_uncompressed_bytes": 118098,
+          "steps": 20000
+        },
+        {
+          "a": 59046,
+          "c": 20098,
+          "d": 60,
+          "events": 20000,
+          "input_cursor": 0,
+          "label": "final",
+          "memory_sha256": "ddf18c495c265869b300d996a23403f0852b0c604ce1162253d9d3b7e0a93d05",
+          "output_length": 0,
+          "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "snapshot_gzip_bytes": 12497,
+          "snapshot_gzip_sha256": "c014e9ae0a75f688bf3fb44bf04b9f848cd67aec4f13d83ba75f5f1981db796d",
+          "snapshot_path": "snapshots/bottles/final.u16le.bin.gz",
+          "snapshot_uncompressed_bytes": 118098,
+          "steps": 20000
+        }
+      ],
+      "initial_memory_sha256": "ddf18c495c265869b300d996a23403f0852b0c604ce1162253d9d3b7e0a93d05",
+      "input_hex": "",
+      "naive_initialization_equal": true,
+      "parity": {
+        "halt_step_count_from_c": "NOT_EXPOSED_BY_MB_REF",
+        "max_steps_equal": true,
+        "output_equal": true,
+        "pass": true,
+        "terminal_equal_with_stall_mapping": true
+      },
+      "process_max_rss_kib": 717324,
+      "program_absolute_path": "/home/danny/Development/ISyCo Git/BolgeForge/reference/malbolge_org/99_bottles.mal",
+      "python": {
+        "a": 59046,
+        "c": 20098,
+        "d": 60,
+        "events": 20000,
+        "input_cursor": 0,
+        "memory_sha256": "ddf18c495c265869b300d996a23403f0852b0c604ce1162253d9d3b7e0a93d05",
+        "output_hex": "",
+        "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "steps": 20000,
+        "terminal": "MAX_STEPS"
+      },
+      "source_bytes": 22807,
+      "source_cells": 22561,
+      "source_sha256": "f82723aa7a957f2986f554bf7f421498880bd9ee59a613861868c5c2f0741e0c",
+      "trace": {
+        "format": "JSONL gzip; escrituras [address,old,new,cause]",
+        "gzip_bytes": 604899,
+        "gzip_ratio": 0.11154134947369508,
+        "gzip_sha256": "19acd77fc7cfcf7bca75b3fbbd808a6492dc46f8d69fbeda52449d3b2c5d224d",
+        "path": "traces/bottles.jsonl.gz",
+        "uncompressed_bytes": 5423092,
+        "uncompressed_sha256": "e1d935cf22db594ff0a2f2946f33a1899d7ff905606634dcf07f98917707d24c"
+      },
+      "wall_seconds": 0.42926471601822414
+    }
+  ]
+}
