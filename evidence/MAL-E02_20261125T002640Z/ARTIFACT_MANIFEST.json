@@ -1,0 +1,56 @@
+{
+  "artifacts": [
+    {
+      "bytes": 20796,
+      "path": "RESULTS.json",
+      "sha256": "9827386f6a0f84eed2c3369a1d3f240d84066e2213016cce74bbe0d54d179662"
+    },
+    {
+      "bytes": 3595,
+      "path": "cases.json",
+      "sha256": "39d8387921606d947294fb176460c76eda3fa736eee95c3e41105073e7113bcf"
+    },
+    {
+      "bytes": 29648,
+      "path": "programs/negative_29645.mb",
+      "sha256": "872ea31bf268ad8634e295e025851d329421f3fcf61bb00efeb0314c76463ae1"
+    },
+    {
+      "bytes": 31716,
+      "path": "programs/negative_31713.mb",
+      "sha256": "b1cd9212d807d93331dbe9fa1d98ced53e2c6318d4590e1ecbb42b490ebe7a81"
+    },
+    {
+      "bytes": 29648,
+      "path": "programs/positive_29645.mb",
+      "sha256": "73a72fb4266ee52a31d30e538bdc26bcece80ec21f9ec800eadd960b05e050d3"
+    },
+    {
+      "bytes": 31716,
+      "path": "programs/positive_31713.mb",
+      "sha256": "7f2df20ef7a252264fdb2abd916f3c6deb3043f847baf143e05522adb3a97ef1"
+    },
+    {
+      "bytes": 53836,
+      "path": "traces/negative_29645.jsonl",
+      "sha256": "6ef3a565d061c00ebcc76d2518e4a997f4408d2f5eff2c00742e0c10ae7515b1"
+    },
+    {
+      "bytes": 689620,
+      "path": "traces/negative_31713.jsonl",
+      "sha256": "fdbe6b0293fb4ae4415ca8b736352ae2c95a770318fdc56631f445ef4bb0a028"
+    },
+    {
+      "bytes": 68721,
+      "path": "traces/positive_29645.jsonl",
+      "sha256": "a288c5d9283692d6c905714a3df0a23a3a808bec6339175a8b03a502cf3a8b20"
+    },
+    {
+      "bytes": 31266,
+      "path": "traces/positive_31713.jsonl",
+      "sha256": "9420dde9a1571ac589fc11b158ac00d22471d8c9e107cb70f35603ef39677ffd"
+    }
+  ],
+  "run_id": "MAL-E02_20261125T002640Z",
+  "schema": "fibonalgge-artifact-manifest/v1"
+}

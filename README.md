@@ -25,6 +25,19 @@ No se estudian Malbolge Unshackled, Malbolge Free ni extensiones. No se modifica
 - [`evidence/`](evidence/): trazas comprimidas, snapshots, casos y resultados por corrida.
 - [`GUIA.md`](GUIA.md): reproducción exacta y presupuesto.
 
+## MAL-E02 — slot de direcciones completas
+
+La extensión posterior a MAL-E01 está en
+[`RESEARCH_REPORT_MAL_E02.md`](RESEARCH_REPORT_MAL_E02.md) y
+[`GUIA_MAL_E02.md`](GUIA_MAL_E02.md). Una imagen Classic real guarda una dirección
+completa de diez trits en un slot, salta indirectamente, aterriza en el destino después
+del incremento obligatorio de `c` y cifra la celda del nuevo `c`. La corrida final es
+`MAL-E02_20261125T002802Z`; el modelo exhaustivo cubre las 59 049 palabras para
+escritura exacta y rearme.
+
+La repetición dentro de la misma imagen y la composición con la pila de dos slots de P12
+quedan **NOT_DEMONSTRATED** en esta etapa.
+
 ## Implementación
 
 Python 3.10+ y biblioteca estándar. El oráculo externo es `../BolgeForge/mb_ref`; el control Python independiente es `../Malbolge-PureEpoch/baseline/epoch_probe.py`. Las fuentes originales se leen en su ubicación y se identifican por SHA-256; no se copian ni reescriben.

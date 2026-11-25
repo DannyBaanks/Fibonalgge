@@ -1,0 +1,682 @@
+{
+  "cases": [
+    {
+      "expected_output_hex": "cc",
+      "halt_addr": 111,
+      "image_bytes": 29648,
+      "image_sha256": "73a72fb4266ee52a31d30e538bdc26bcece80ec21f9ec800eadd960b05e050d3",
+      "kind": "positive",
+      "label": "positive_29645",
+      "masks": [
+        90,
+        91,
+        92,
+        93
+      ],
+      "original_runner": {
+        "available": true,
+        "command": [
+          "/home/danny/Development/ISyCo Git/MALBOLGE-MB-DATABASE/runners/malbolge-original/malbolge",
+          "/home/danny/Development/ISyCo Git/Fibonalgge/evidence/MAL-E02_20261125T002802Z/programs/positive_29645.mb",
+          "100000"
+        ],
+        "output_hex": "cc",
+        "path": "/home/danny/Development/ISyCo Git/MALBOLGE-MB-DATABASE/runners/malbolge-original/malbolge",
+        "returncode": 0,
+        "sha256": "3257f1ae98bcd3e86a1b93d1b53a4b3d3512d8265cb7052f2bcb56b1e95ea231",
+        "status": "HALTED",
+        "stderr_utf8": "steps: 237 | status: HALTED\n",
+        "stdout_hex_raw": "cc0a",
+        "steps": 237
+      },
+      "pointer_addr": 45,
+      "return_addr": 110,
+      "sentinel_addr": 29647,
+      "slot_addr": 44,
+      "store_value": 29644,
+      "strict_mb_ref": {
+        "available": true,
+        "command": [
+          "/home/danny/Development/ISyCo Git/BolgeForge/mb_ref",
+          "/home/danny/Development/ISyCo Git/Fibonalgge/evidence/MAL-E02_20261125T002802Z/programs/positive_29645.mb",
+          "100000"
+        ],
+        "output_hex": "",
+        "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "path": "/home/danny/Development/ISyCo Git/BolgeForge/mb_ref",
+        "returncode": 1,
+        "sha256": "463723a2484d1ea384472c232cfe89fdce7a19aa73d4d2396c2cc68f6d45889a",
+        "stderr_utf8": "INVALID_OPCODE: cell 41\n",
+        "terminal": "ERROR"
+      },
+      "target": 29645,
+      "target_pointer_addr": 100,
+      "vm": {
+        "checks": {
+          "first_target_pc": true,
+          "jump_encrypts_landing": true,
+          "landing_changed": true,
+          "mask_invariant": true,
+          "output_expected": true,
+          "payload_exact": true,
+          "pointer_preserved": true,
+          "return_cell_encrypted": true,
+          "scratch_swap": true,
+          "sentinel_preserved": true,
+          "slot_exact": true,
+          "target_cell_encrypted": true,
+          "target_successor_not_encrypted": true,
+          "terminal_halt": true
+        },
+        "events": 237,
+        "final": {
+          "a": 29644,
+          "c": 111,
+          "d": 102,
+          "landing_cell": 122,
+          "mask": 29524,
+          "payload": 29644,
+          "return_cell": 94,
+          "scratch": 240,
+          "sentinel": 42,
+          "slot": 29644,
+          "target_cell": 86,
+          "target_successor": 62
+        },
+        "first_target_event": {
+          "a_after": 29644,
+          "a_before": 29644,
+          "c_after": 29646,
+          "c_encrypt": 29645,
+          "c_fetch": 29645,
+          "cell_c": 99,
+          "d_after": 100,
+          "d_before": 45,
+          "event": 233,
+          "input_byte": null,
+          "mem_d": 99,
+          "opcode": "j",
+          "output_byte": null,
+          "step": 233,
+          "terminal": "RUNNING",
+          "writes": [
+            [
+              29645,
+              99,
+              86,
+              "encrypt"
+            ]
+          ]
+        },
+        "jump_events": [
+          {
+            "a_after": 29644,
+            "a_before": 29644,
+            "c_after": 29645,
+            "c_encrypt": 29644,
+            "c_fetch": 352,
+            "cell_c": 122,
+            "d_after": 45,
+            "d_before": 44,
+            "event": 232,
+            "input_byte": null,
+            "mem_d": 29644,
+            "opcode": "i",
+            "output_byte": null,
+            "step": 232,
+            "terminal": "RUNNING",
+            "writes": [
+              [
+                29644,
+                34,
+                122,
+                "encrypt"
+              ]
+            ]
+          }
+        ],
+        "ok": true,
+        "output_hex": "cc",
+        "steps": 236,
+        "terminal": "HALT"
+      }
+    },
+    {
+      "expected_output_hex": "e0",
+      "halt_addr": 111,
+      "image_bytes": 31716,
+      "image_sha256": "7f2df20ef7a252264fdb2abd916f3c6deb3043f847baf143e05522adb3a97ef1",
+      "kind": "positive",
+      "label": "positive_31713",
+      "masks": [
+        90,
+        91
+      ],
+      "original_runner": {
+        "available": true,
+        "command": [
+          "/home/danny/Development/ISyCo Git/MALBOLGE-MB-DATABASE/runners/malbolge-original/malbolge",
+          "/home/danny/Development/ISyCo Git/Fibonalgge/evidence/MAL-E02_20261125T002802Z/programs/positive_31713.mb",
+          "100000"
+        ],
+        "output_hex": "e0",
+        "path": "/home/danny/Development/ISyCo Git/MALBOLGE-MB-DATABASE/runners/malbolge-original/malbolge",
+        "returncode": 0,
+        "sha256": "3257f1ae98bcd3e86a1b93d1b53a4b3d3512d8265cb7052f2bcb56b1e95ea231",
+        "status": "HALTED",
+        "stderr_utf8": "steps: 108 | status: HALTED\n",
+        "stdout_hex_raw": "e00a",
+        "steps": 108
+      },
+      "pointer_addr": 45,
+      "return_addr": 110,
+      "sentinel_addr": 31715,
+      "slot_addr": 44,
+      "store_value": 31712,
+      "strict_mb_ref": {
+        "available": true,
+        "command": [
+          "/home/danny/Development/ISyCo Git/BolgeForge/mb_ref",
+          "/home/danny/Development/ISyCo Git/Fibonalgge/evidence/MAL-E02_20261125T002802Z/programs/positive_31713.mb",
+          "100000"
+        ],
+        "output_hex": "",
+        "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "path": "/home/danny/Development/ISyCo Git/BolgeForge/mb_ref",
+        "returncode": 1,
+        "sha256": "463723a2484d1ea384472c232cfe89fdce7a19aa73d4d2396c2cc68f6d45889a",
+        "stderr_utf8": "INVALID_OPCODE: cell 41\n",
+        "terminal": "ERROR"
+      },
+      "target": 31713,
+      "target_pointer_addr": 100,
+      "vm": {
+        "checks": {
+          "first_target_pc": true,
+          "jump_encrypts_landing": true,
+          "landing_changed": true,
+          "mask_invariant": true,
+          "output_expected": true,
+          "payload_exact": true,
+          "pointer_preserved": true,
+          "return_cell_encrypted": true,
+          "scratch_swap": true,
+          "sentinel_preserved": true,
+          "slot_exact": true,
+          "target_cell_encrypted": true,
+          "target_successor_not_encrypted": true,
+          "terminal_halt": true
+        },
+        "events": 108,
+        "final": {
+          "a": 31712,
+          "c": 111,
+          "d": 102,
+          "landing_cell": 122,
+          "mask": 29524,
+          "payload": 31712,
+          "return_cell": 94,
+          "scratch": 4376,
+          "sentinel": 42,
+          "slot": 31712,
+          "target_cell": 86,
+          "target_successor": 62
+        },
+        "first_target_event": {
+          "a_after": 31712,
+          "a_before": 31712,
+          "c_after": 31714,
+          "c_encrypt": 31713,
+          "c_fetch": 31713,
+          "cell_c": 99,
+          "d_after": 100,
+          "d_before": 45,
+          "event": 104,
+          "input_byte": null,
+          "mem_d": 99,
+          "opcode": "j",
+          "output_byte": null,
+          "step": 104,
+          "terminal": "RUNNING",
+          "writes": [
+            [
+              31713,
+              99,
+              86,
+              "encrypt"
+            ]
+          ]
+        },
+        "jump_events": [
+          {
+            "a_after": 31712,
+            "a_before": 31712,
+            "c_after": 31713,
+            "c_encrypt": 31712,
+            "c_fetch": 223,
+            "cell_c": 63,
+            "d_after": 45,
+            "d_before": 44,
+            "event": 103,
+            "input_byte": null,
+            "mem_d": 31712,
+            "opcode": "i",
+            "output_byte": null,
+            "step": 103,
+            "terminal": "RUNNING",
+            "writes": [
+              [
+                31712,
+                34,
+                122,
+                "encrypt"
+              ]
+            ]
+          }
+        ],
+        "ok": true,
+        "output_hex": "e0",
+        "steps": 107,
+        "terminal": "HALT"
+      }
+    },
+    {
+      "expected_output_hex": "54",
+      "halt_addr": 111,
+      "image_bytes": 29648,
+      "image_sha256": "872ea31bf268ad8634e295e025851d329421f3fcf61bb00efeb0314c76463ae1",
+      "kind": "negative_control",
+      "label": "negative_29645",
+      "masks": [],
+      "original_runner": {
+        "available": true,
+        "command": [
+          "/home/danny/Development/ISyCo Git/MALBOLGE-MB-DATABASE/runners/malbolge-original/malbolge",
+          "/home/danny/Development/ISyCo Git/Fibonalgge/evidence/MAL-E02_20261125T002802Z/programs/negative_29645.mb",
+          "100000"
+        ],
+        "output_hex": "54",
+        "path": "/home/danny/Development/ISyCo Git/MALBOLGE-MB-DATABASE/runners/malbolge-original/malbolge",
+        "returncode": 0,
+        "sha256": "3257f1ae98bcd3e86a1b93d1b53a4b3d3512d8265cb7052f2bcb56b1e95ea231",
+        "status": "HALTED",
+        "stderr_utf8": "steps: 182 | status: HALTED\n",
+        "stdout_hex_raw": "540a",
+        "steps": 182
+      },
+      "pointer_addr": 45,
+      "return_addr": 110,
+      "sentinel_addr": 29647,
+      "slot_addr": 44,
+      "store_value": 29524,
+      "strict_mb_ref": {
+        "available": true,
+        "command": [
+          "/home/danny/Development/ISyCo Git/BolgeForge/mb_ref",
+          "/home/danny/Development/ISyCo Git/Fibonalgge/evidence/MAL-E02_20261125T002802Z/programs/negative_29645.mb",
+          "100000"
+        ],
+        "output_hex": "",
+        "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "path": "/home/danny/Development/ISyCo Git/BolgeForge/mb_ref",
+        "returncode": 1,
+        "sha256": "463723a2484d1ea384472c232cfe89fdce7a19aa73d4d2396c2cc68f6d45889a",
+        "stderr_utf8": "INVALID_OPCODE: cell 41\n",
+        "terminal": "ERROR"
+      },
+      "target": 29645,
+      "target_pointer_addr": 100,
+      "vm": {
+        "checks": {
+          "jump_encrypts_wrong_landing": true,
+          "mask_invariant": true,
+          "payload_exact": true,
+          "sentinel_preserved": true,
+          "slot_exact": true,
+          "wrong_landing_not_target": true
+        },
+        "events": 182,
+        "final": {
+          "a": 29524,
+          "c": 111,
+          "d": 57,
+          "landing_cell": 41,
+          "mask": 29524,
+          "payload": 29524,
+          "return_cell": 94,
+          "scratch": 0,
+          "sentinel": 42,
+          "slot": 29524,
+          "target_cell": 86,
+          "target_successor": 62
+        },
+        "first_target_event": {
+          "a_after": 29524,
+          "a_before": 29524,
+          "c_after": 29646,
+          "c_encrypt": 29645,
+          "c_fetch": 29645,
+          "cell_c": 99,
+          "d_after": 44,
+          "d_before": 165,
+          "event": 167,
+          "input_byte": null,
+          "mem_d": 43,
+          "opcode": "j",
+          "output_byte": null,
+          "step": 167,
+          "terminal": "RUNNING",
+          "writes": [
+            [
+              29645,
+              99,
+              86,
+              "encrypt"
+            ]
+          ]
+        },
+        "jump_events": [
+          {
+            "a_after": 29524,
+            "a_before": 29524,
+            "c_after": 29525,
+            "c_encrypt": 29524,
+            "c_fetch": 166,
+            "cell_c": 120,
+            "d_after": 45,
+            "d_before": 44,
+            "event": 46,
+            "input_byte": null,
+            "mem_d": 29524,
+            "opcode": "i",
+            "output_byte": null,
+            "step": 46,
+            "terminal": "RUNNING",
+            "writes": [
+              [
+                29524,
+                60,
+                51,
+                "encrypt"
+              ]
+            ]
+          },
+          {
+            "a_after": 29524,
+            "a_before": 29524,
+            "c_after": 29525,
+            "c_encrypt": 29524,
+            "c_fetch": 29646,
+            "cell_c": 62,
+            "d_after": 45,
+            "d_before": 44,
+            "event": 168,
+            "input_byte": null,
+            "mem_d": 29524,
+            "opcode": "i",
+            "output_byte": null,
+            "step": 168,
+            "terminal": "RUNNING",
+            "writes": [
+              [
+                29524,
+                51,
+                41,
+                "encrypt"
+              ]
+            ]
+          }
+        ],
+        "ok": true,
+        "output_hex": "54",
+        "steps": 181,
+        "terminal": "HALT"
+      }
+    },
+    {
+      "expected_output_hex": "54",
+      "halt_addr": 111,
+      "image_bytes": 31716,
+      "image_sha256": "b1cd9212d807d93331dbe9fa1d98ced53e2c6318d4590e1ecbb42b490ebe7a81",
+      "kind": "negative_control",
+      "label": "negative_31713",
+      "masks": [],
+      "original_runner": {
+        "available": true,
+        "command": [
+          "/home/danny/Development/ISyCo Git/MALBOLGE-MB-DATABASE/runners/malbolge-original/malbolge",
+          "/home/danny/Development/ISyCo Git/Fibonalgge/evidence/MAL-E02_20261125T002802Z/programs/negative_31713.mb",
+          "100000"
+        ],
+        "output_hex": "54",
+        "path": "/home/danny/Development/ISyCo Git/MALBOLGE-MB-DATABASE/runners/malbolge-original/malbolge",
+        "returncode": 0,
+        "sha256": "3257f1ae98bcd3e86a1b93d1b53a4b3d3512d8265cb7052f2bcb56b1e95ea231",
+        "status": "HALTED",
+        "stderr_utf8": "steps: 2278 | status: HALTED\n",
+        "stdout_hex_raw": "540a",
+        "steps": 2278
+      },
+      "pointer_addr": 45,
+      "return_addr": 110,
+      "sentinel_addr": 31715,
+      "slot_addr": 44,
+      "store_value": 29524,
+      "strict_mb_ref": {
+        "available": true,
+        "command": [
+          "/home/danny/Development/ISyCo Git/BolgeForge/mb_ref",
+          "/home/danny/Development/ISyCo Git/Fibonalgge/evidence/MAL-E02_20261125T002802Z/programs/negative_31713.mb",
+          "100000"
+        ],
+        "output_hex": "",
+        "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "path": "/home/danny/Development/ISyCo Git/BolgeForge/mb_ref",
+        "returncode": 1,
+        "sha256": "463723a2484d1ea384472c232cfe89fdce7a19aa73d4d2396c2cc68f6d45889a",
+        "stderr_utf8": "INVALID_OPCODE: cell 41\n",
+        "terminal": "ERROR"
+      },
+      "target": 31713,
+      "target_pointer_addr": 100,
+      "vm": {
+        "checks": {
+          "jump_encrypts_wrong_landing": true,
+          "mask_invariant": true,
+          "payload_exact": true,
+          "sentinel_preserved": true,
+          "slot_exact": true,
+          "wrong_landing_not_target": true
+        },
+        "events": 2278,
+        "final": {
+          "a": 29524,
+          "c": 111,
+          "d": 133,
+          "landing_cell": 51,
+          "mask": 29524,
+          "payload": 29524,
+          "return_cell": 94,
+          "scratch": 0,
+          "sentinel": 42,
+          "slot": 29524,
+          "target_cell": 86,
+          "target_successor": 62
+        },
+        "first_target_event": {
+          "a_after": 29524,
+          "a_before": 29524,
+          "c_after": 31714,
+          "c_encrypt": 31713,
+          "c_fetch": 31713,
+          "cell_c": 99,
+          "d_after": 92,
+          "d_before": 2233,
+          "event": 2235,
+          "input_byte": null,
+          "mem_d": 91,
+          "opcode": "j",
+          "output_byte": null,
+          "step": 2235,
+          "terminal": "RUNNING",
+          "writes": [
+            [
+              31713,
+              99,
+              86,
+              "encrypt"
+            ]
+          ]
+        },
+        "jump_events": [
+          {
+            "a_after": 29524,
+            "a_before": 29524,
+            "c_after": 29525,
+            "c_encrypt": 29524,
+            "c_fetch": 166,
+            "cell_c": 120,
+            "d_after": 45,
+            "d_before": 44,
+            "event": 46,
+            "input_byte": null,
+            "mem_d": 29524,
+            "opcode": "i",
+            "output_byte": null,
+            "step": 46,
+            "terminal": "RUNNING",
+            "writes": [
+              [
+                29524,
+                60,
+                51,
+                "encrypt"
+              ]
+            ]
+          }
+        ],
+        "ok": true,
+        "output_hex": "54",
+        "steps": 2277,
+        "terminal": "HALT"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "claim": "escritura exacta de las 59 049 palabras en el modelo de slot",
+      "evidence": "model.exact_write_failures",
+      "status": "DEMONSTRATED"
+    },
+    {
+      "claim": "rearme del slot a 29524 para las 59 049 palabras",
+      "evidence": "model.rearm_failures",
+      "status": "DEMONSTRATED"
+    },
+    {
+      "claim": "imagen Classic real: slot con direcci\u00f3n completa, salto indirecto y aterrizaje en target",
+      "evidence": "positive cases + runner C original",
+      "status": "DEMONSTRATED"
+    },
+    {
+      "claim": "el incremento de c y el cifrado de la celda de aterrizaje se observan en la traza",
+      "evidence": "vm.jump_events / checks",
+      "status": "DEMONSTRATED"
+    },
+    {
+      "claim": "un valor de slot incorrecto aterriza fuera de target",
+      "evidence": "negative cases",
+      "status": "DEMONSTRATED"
+    },
+    {
+      "claim": "rearme y repetici\u00f3n de saltos dentro de la misma imagen",
+      "evidence": "s\u00f3lo model_sequence; no hay imagen de dos ciclos",
+      "status": "NOT_DEMONSTRATED"
+    },
+    {
+      "claim": "composici\u00f3n con los dos slots de retorno de P12",
+      "evidence": "dise\u00f1o pendiente; no se ejecut\u00f3 P12 con el slot nuevo",
+      "status": "NOT_DEMONSTRATED"
+    },
+    {
+      "claim": "el cargador estricto de mb_ref acepta la imagen con celdas de dato no-opcode",
+      "evidence": "strict_mb_ref INVALID_OPCODE; se usa el runner C original",
+      "status": "FALSIFIED"
+    },
+    {
+      "claim": "modelo global reducido de ejecuci\u00f3n",
+      "evidence": "sin cambios respecto de MAL-E01",
+      "status": "NOT_DEMONSTRATED"
+    }
+  ],
+  "created_utc": "2026-11-25T00:28:02.995987+00:00",
+  "environment": {
+    "git_head": "c5bf077635f6cf9911f064150926521823792636",
+    "mb_ref": "/home/danny/Development/ISyCo Git/BolgeForge/mb_ref",
+    "mb_ref_sha256": "463723a2484d1ea384472c232cfe89fdce7a19aa73d4d2396c2cc68f6d45889a",
+    "original_runner": "/home/danny/Development/ISyCo Git/MALBOLGE-MB-DATABASE/runners/malbolge-original/malbolge",
+    "original_runner_sha256": "3257f1ae98bcd3e86a1b93d1b53a4b3d3512d8265cb7052f2bcb56b1e95ea231",
+    "platform": "Linux-7.0.0-43-generic-x86_64-with-glibc2.39",
+    "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+    "root": "/home/danny/Development/ISyCo Git/Fibonalgge",
+    "sources": {
+      "fibonalgge/address_slot.py": "62e12887166c2e0a93d3f595fbaa6f9957dba88f02485871f9dfedbee1e247b1",
+      "fibonalgge/planner.py": "eb51f5e46994e181934e43e8dbb0816988d12c5c0ab2d0508a9edf77180b0166",
+      "mal_e02.py": "c3db4f8dfeb61851b97980099af4dfb2d6d00944a7926695650ca0d385239a4d",
+      "original_planner.py": "9685514d1ad67756e46b52e7afd3d5c8eb121fba26138b9e4cfb9defabdb805b",
+      "tests/test_address_slot.py": "6f2f0db72c71b7bb4961c0fd9f4ff04ce542abcba7c5099cd58c36b95669a47e"
+    }
+  },
+  "limitations": [
+    "La imagen de un ciclo no rearma el slot despu\u00e9s del retorno: el retorno termina en HALT.",
+    "El modelo de secuencia demuestra la aritm\u00e9tica de escribir/aterrizar/rearmar, no una imagen de dos ciclos.",
+    "mb_ref rechaza la imagen en carga porque exige que toda celda fuente sea un opcode v\u00e1lido; el runner C original y la VM instrumentada s\u00ed la ejecutan.",
+    "No se conect\u00f3 todav\u00eda el slot a la pila de dos slots de P12."
+  ],
+  "mask": 29524,
+  "model": {
+    "domain": 59049,
+    "exact_write_ok": true,
+    "rearm_failures": [],
+    "rearm_ok": true,
+    "write_failures": []
+  },
+  "model_sequence": {
+    "all_ok": true,
+    "cycles": 2,
+    "rows": [
+      {
+        "landing": 29645,
+        "landing_ok": true,
+        "rearm_ok": true,
+        "rearmed": 29524,
+        "slot_value": 29644,
+        "target": 29645,
+        "written_ok": true
+      },
+      {
+        "landing": 31713,
+        "landing_ok": true,
+        "rearm_ok": true,
+        "rearmed": 29524,
+        "slot_value": 31712,
+        "target": 31713,
+        "written_ok": true
+      }
+    ]
+  },
+  "question": "\u00bfPuede un slot Classic almacenar una direcci\u00f3n completa de diez trits, restaurarla, usarla como destino indirecto con el incremento de c y el cifrado del aterrizaje, y rearmarse para otro destino?",
+  "run_id": "MAL-E02_20261125T002802Z",
+  "schema": "fibonalgge-mal-e02/v1",
+  "scope": {
+    "language": "Classic Malbolge de 59 049 palabras de diez trits",
+    "one_cycle_image": true,
+    "p12_composition": false,
+    "same_image_repetition": false,
+    "strict_mb_ref_loader": false
+  },
+  "targets": [
+    29645,
+    31713
+  ]
+}
